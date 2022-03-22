@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.novemdecillion.utils",
+    "module": "novemdecillion-utils-spring-boot",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "3wublz7r3vbyxb67n2s53u4qki"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "novemdecillion-utils-spring-boot-1.0.0.jar",
+          "url": "novemdecillion-utils-spring-boot-1.0.0.jar",
+          "size": 2517,
+          "sha512": "bf1b3c95de44650b7336c8a6773b11d60c3a8656e6b1b9a676f2cb5528bff19c12b99e2a7462e98a8a69c33b1463efbbf94f254b94eadb155a2ecdd939ab26c1",
+          "sha256": "2cb5b25dce07542b4b4a03fbfac924c6de3a478c7081fc15c27973556eb39bad",
+          "sha1": "ed46ef9b0951bcb50641da3b06cf8ba8b4e9dee1",
+          "md5": "4bf1569a6d66af6ad90b0dca08afbb7b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        }
+      ],
+      "files": [
+        {
+          "name": "novemdecillion-utils-spring-boot-1.0.0.jar",
+          "url": "novemdecillion-utils-spring-boot-1.0.0.jar",
+          "size": 2517,
+          "sha512": "bf1b3c95de44650b7336c8a6773b11d60c3a8656e6b1b9a676f2cb5528bff19c12b99e2a7462e98a8a69c33b1463efbbf94f254b94eadb155a2ecdd939ab26c1",
+          "sha256": "2cb5b25dce07542b4b4a03fbfac924c6de3a478c7081fc15c27973556eb39bad",
+          "sha1": "ed46ef9b0951bcb50641da3b06cf8ba8b4e9dee1",
+          "md5": "4bf1569a6d66af6ad90b0dca08afbb7b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "novemdecillion-utils-spring-boot-1.0.0-sources.jar",
+          "url": "novemdecillion-utils-spring-boot-1.0.0-sources.jar",
+          "size": 1315,
+          "sha512": "73669ea33730fa02eef6a2d4d4144286e99db133478530af13939bd5609c3851e5fd2f015b332853ef20608073775098d78ca9ed7d3978094efbf28ec4f75b5a",
+          "sha256": "fc42c6f9b5a93663819f64513d03c87e054d2f5884f758959c9fac17c3d27013",
+          "sha1": "b9e5fc962f0bf6ae67062a77cceec5bc0970444a",
+          "md5": "6a082561a6f49b93828c3c1a3f049e9e"
+        }
+      ]
+    }
+  ]
+}

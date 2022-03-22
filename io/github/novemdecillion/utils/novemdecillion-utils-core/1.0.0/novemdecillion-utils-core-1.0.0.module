@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.novemdecillion.utils",
+    "module": "novemdecillion-utils-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "aal5y3cmyvhe5pdcauv4d6jgqm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "novemdecillion-utils-core-1.0.0.jar",
+          "url": "novemdecillion-utils-core-1.0.0.jar",
+          "size": 3057,
+          "sha512": "2dc1f7c05428f0cf7429303a9a71ba338666386934c3f8837321fb55fa524d1902b39c90dc1ad3d9a28bdc92770d84e3e48e116a6cdb1e2dc7755b821f1f0e66",
+          "sha256": "1a3f828c28143acaeb6e6b04c07523314f7a9102fedeffb7ce08e04374fff63b",
+          "sha1": "a573b24b6c76fa5701a2d0a99dd29169a04416c1",
+          "md5": "c2e74e03468549ac98a37a37b65114de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "novemdecillion-utils-core-1.0.0.jar",
+          "url": "novemdecillion-utils-core-1.0.0.jar",
+          "size": 3057,
+          "sha512": "2dc1f7c05428f0cf7429303a9a71ba338666386934c3f8837321fb55fa524d1902b39c90dc1ad3d9a28bdc92770d84e3e48e116a6cdb1e2dc7755b821f1f0e66",
+          "sha256": "1a3f828c28143acaeb6e6b04c07523314f7a9102fedeffb7ce08e04374fff63b",
+          "sha1": "a573b24b6c76fa5701a2d0a99dd29169a04416c1",
+          "md5": "c2e74e03468549ac98a37a37b65114de"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "novemdecillion-utils-core-1.0.0-sources.jar",
+          "url": "novemdecillion-utils-core-1.0.0-sources.jar",
+          "size": 1642,
+          "sha512": "741bed376e2e47ea5408783428dd8a6d6a7b2af2d9ca44e7df5ab92728bfc68829487605571fe45fbdb791b5c62df7fef976dce983abd253a391e350d6c1a667",
+          "sha256": "6eb4492ead51a8bf73d14f00ade81c2c72ba230383d8cc882d1d0aa8075126df",
+          "sha1": "ef786f0c55ddaad0495ed3174a092eb468072812",
+          "md5": "3521fa1b82c7574c9a954f742c5e0b60"
+        }
+      ]
+    }
+  ]
+}
