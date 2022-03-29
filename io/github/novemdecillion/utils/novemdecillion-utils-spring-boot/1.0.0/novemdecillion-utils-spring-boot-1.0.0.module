@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "3wublz7r3vbyxb67n2s53u4qki"
+      "buildId": "h7fk362hibhx7dusofspugz72y"
     }
   },
   "variants": [
@@ -25,15 +25,21 @@
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        }
+      ],
       "files": [
         {
           "name": "novemdecillion-utils-spring-boot-1.0.0.jar",
           "url": "novemdecillion-utils-spring-boot-1.0.0.jar",
-          "size": 2517,
-          "sha512": "bf1b3c95de44650b7336c8a6773b11d60c3a8656e6b1b9a676f2cb5528bff19c12b99e2a7462e98a8a69c33b1463efbbf94f254b94eadb155a2ecdd939ab26c1",
-          "sha256": "2cb5b25dce07542b4b4a03fbfac924c6de3a478c7081fc15c27973556eb39bad",
-          "sha1": "ed46ef9b0951bcb50641da3b06cf8ba8b4e9dee1",
-          "md5": "4bf1569a6d66af6ad90b0dca08afbb7b"
+          "size": 2715,
+          "sha512": "eb3e490f564769cd16422c4bed7c24dd8cdf916907bc9e5f6f56d54dc7d0bd20927caa75f8a7d5db38ef4b3eb1fc1bf6d99bd8423e7b5c87515171f5702781ee",
+          "sha256": "a559509519c57057110417d02d44c21a044211704e604d82b719f09a979385bb",
+          "sha1": "4a0d0248262fdd43116bc91764b997b8c4ffdfee",
+          "md5": "bf34057ec5222560192f9655db9a0aae"
         }
       ]
     },
@@ -71,11 +77,11 @@
         {
           "name": "novemdecillion-utils-spring-boot-1.0.0.jar",
           "url": "novemdecillion-utils-spring-boot-1.0.0.jar",
-          "size": 2517,
-          "sha512": "bf1b3c95de44650b7336c8a6773b11d60c3a8656e6b1b9a676f2cb5528bff19c12b99e2a7462e98a8a69c33b1463efbbf94f254b94eadb155a2ecdd939ab26c1",
-          "sha256": "2cb5b25dce07542b4b4a03fbfac924c6de3a478c7081fc15c27973556eb39bad",
-          "sha1": "ed46ef9b0951bcb50641da3b06cf8ba8b4e9dee1",
-          "md5": "4bf1569a6d66af6ad90b0dca08afbb7b"
+          "size": 2715,
+          "sha512": "eb3e490f564769cd16422c4bed7c24dd8cdf916907bc9e5f6f56d54dc7d0bd20927caa75f8a7d5db38ef4b3eb1fc1bf6d99bd8423e7b5c87515171f5702781ee",
+          "sha256": "a559509519c57057110417d02d44c21a044211704e604d82b719f09a979385bb",
+          "sha1": "4a0d0248262fdd43116bc91764b997b8c4ffdfee",
+          "md5": "bf34057ec5222560192f9655db9a0aae"
         }
       ]
     },
@@ -91,11 +97,11 @@
         {
           "name": "novemdecillion-utils-spring-boot-1.0.0-sources.jar",
           "url": "novemdecillion-utils-spring-boot-1.0.0-sources.jar",
-          "size": 1315,
-          "sha512": "73669ea33730fa02eef6a2d4d4144286e99db133478530af13939bd5609c3851e5fd2f015b332853ef20608073775098d78ca9ed7d3978094efbf28ec4f75b5a",
-          "sha256": "fc42c6f9b5a93663819f64513d03c87e054d2f5884f758959c9fac17c3d27013",
-          "sha1": "b9e5fc962f0bf6ae67062a77cceec5bc0970444a",
-          "md5": "6a082561a6f49b93828c3c1a3f049e9e"
+          "size": 1496,
+          "sha512": "6030049b9c393fa9c4b90e2cdb97a6b844875b7e29f92cc194b05e37a8b12f1fcc76f9cd3c966944f807ebd178c566ac105c6314396150765d8928c860be4b9b",
+          "sha256": "5c9d8391e85bfec601b837fa2d8ad60c6b0021d1542f339a423e24cbe3e3b392",
+          "sha1": "b27880c22543f4f66ac9a06016b78d8ec93d36a6",
+          "md5": "ab7553abc198ee106710635562ea2cf5"
         }
       ]
     }

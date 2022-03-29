@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "aal5y3cmyvhe5pdcauv4d6jgqm"
+      "buildId": "h7fk362hibhx7dusofspugz72y"
     }
   },
   "variants": [
@@ -25,6 +25,12 @@
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api"
+        }
+      ],
       "files": [
         {
           "name": "novemdecillion-utils-core-1.0.0.jar",

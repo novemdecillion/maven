@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.novemdecillion.utils",
+    "module": "novemdecillion-utils-app-base",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "h7fk362hibhx7dusofspugz72y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-spring-boot",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-spring-boot-starter",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "17.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc"
+        }
+      ],
+      "files": [
+        {
+          "name": "novemdecillion-utils-app-base-1.0.0.jar",
+          "url": "novemdecillion-utils-app-base-1.0.0.jar",
+          "size": 30836,
+          "sha512": "fac5e4c669ccb53081b2e506610695d9a74158be5791c2177274387e89e289cdb0d0f7ec5fa35268bf092ffbe5502723d1ce775c9eb0789c85232d21b1ab76aa",
+          "sha256": "0b326f27136cd185612757847cf872642fc198fb9d0691b3c1fa8c4615491982",
+          "sha1": "436fa05853377e23cdaac48e2c6f450839f42345",
+          "md5": "f92f7ea9a6fabf13da30ffdcc3d2a511"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-spring-boot",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-spring-boot-starter",
+          "version": {
+            "requires": "12.0.0"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "17.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-jdbc"
+        }
+      ],
+      "files": [
+        {
+          "name": "novemdecillion-utils-app-base-1.0.0.jar",
+          "url": "novemdecillion-utils-app-base-1.0.0.jar",
+          "size": 30836,
+          "sha512": "fac5e4c669ccb53081b2e506610695d9a74158be5791c2177274387e89e289cdb0d0f7ec5fa35268bf092ffbe5502723d1ce775c9eb0789c85232d21b1ab76aa",
+          "sha256": "0b326f27136cd185612757847cf872642fc198fb9d0691b3c1fa8c4615491982",
+          "sha1": "436fa05853377e23cdaac48e2c6f450839f42345",
+          "md5": "f92f7ea9a6fabf13da30ffdcc3d2a511"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "novemdecillion-utils-app-base-1.0.0-sources.jar",
+          "url": "novemdecillion-utils-app-base-1.0.0-sources.jar",
+          "size": 8320,
+          "sha512": "488b5b8ce57b8311b315a57e1ccc30772ee48d715b83ae35b2c3923bd4b6692a9dbd37511d5357f63e3510bfdfa8858ed6554c446972cb41b0365adac1ba5863",
+          "sha256": "9090d114e25589ced7d398098fe61ce5850dd133a40cf476e1d1c1c9db5d8a8a",
+          "sha1": "b831fbc15f102772d10300d75af7fdebe47b7524",
+          "md5": "b1547f32d1ff33dcb5b8818ab856e4bb"
+        }
+      ]
+    }
+  ]
+}

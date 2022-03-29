@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.novemdecillion.utils",
+    "module": "simple-app",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "h7fk362hibhx7dusofspugz72y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-app-base",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-app-1.0.0.jar",
+          "url": "simple-app-1.0.0.jar",
+          "size": 12355,
+          "sha512": "3d41c11e6a562870233690129da95a11070cd2134a8431a1f73db2707b3335d6f1004bec4af111b553a98f3e7498ef33e0e5747d4bde7de309f3b6c3cd4d46d8",
+          "sha256": "986723fc1c6d3d6826875b416fc5da4a5aeadff12e69653abee6f65e7f02d943",
+          "sha1": "0781ddedf1dcce777099383f8614d0676cf2f497",
+          "md5": "8a5cc456c68d482649ac34ea15ae1e0a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.novemdecillion.utils",
+          "module": "novemdecillion-utils-app-base",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simple-app-1.0.0.jar",
+          "url": "simple-app-1.0.0.jar",
+          "size": 12355,
+          "sha512": "3d41c11e6a562870233690129da95a11070cd2134a8431a1f73db2707b3335d6f1004bec4af111b553a98f3e7498ef33e0e5747d4bde7de309f3b6c3cd4d46d8",
+          "sha256": "986723fc1c6d3d6826875b416fc5da4a5aeadff12e69653abee6f65e7f02d943",
+          "sha1": "0781ddedf1dcce777099383f8614d0676cf2f497",
+          "md5": "8a5cc456c68d482649ac34ea15ae1e0a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "simple-app-1.0.0-sources.jar",
+          "url": "simple-app-1.0.0-sources.jar",
+          "size": 4739,
+          "sha512": "31a142dab05a586b163795f2115d4c399630ee89c22aa71d4d428709e0eed8796960cafe04d3bc55ae0b657b1226a819906251b35222c39a26e9ca8d3254aad8",
+          "sha256": "c5aace90a44fa24565f6aef0b0c7b115d6b205dcfe357be3178885625fba2b25",
+          "sha1": "50ceeb88bd595eca61f509065dd7626b1cc356fb",
+          "md5": "5a5a499171fe4b9405830532bf70ec55"
+        }
+      ]
+    }
+  ]
+}
